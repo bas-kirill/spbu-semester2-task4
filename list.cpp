@@ -165,7 +165,7 @@ void filter(list* l) {
     print(&l1);
     std::cout << ";" << std::endl << "Second list: ";
     print(&l2);
-    std::cout << std::endl;
+    std::cout << ";" << std::endl;
 }
 
 void print(list* l) {
